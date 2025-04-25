@@ -29,7 +29,7 @@ The main features:
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/aes-chat.git
+git clone https://github.com/hexsecteam/AES-Encrypted-Multi-Client-Server-in-Python-DEMO-.git
 cd aes-chat
 ```
 

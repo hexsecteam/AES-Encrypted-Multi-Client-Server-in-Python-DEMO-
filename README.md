@@ -30,7 +30,7 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/hexsecteam/AES-Encrypted-Multi-Client-Server-in-Python-DEMO-.git
-cd aes-chat
+cd AES-Encrypted-Multi-Client-Server-in-Python-DEMO--main
 ```
 
 Install the required Python module:

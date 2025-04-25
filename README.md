@@ -63,17 +63,11 @@ python client.py
 
 This script acts as the server. It generates the AES key, listens for a client connection, and handles sending and receiving encrypted messages.
 
-```python
-# [Code as shown above remains unchanged]
-```
 
 ### `client.py` (Client)
 
 The client connects to the server and uses the shared key to securely exchange messages.
 
-```python
-# [Code as shown above remains unchanged]
-```
 
 ---
 
@@ -93,7 +87,7 @@ The client connects to the server and uses the shared key to securely exchange m
 ## 🔍 Wireshark Demonstration
 
 - **Without AES**: Plaintext messages like `hello hexsec community` are fully visible.
-![ clemati ](images/Server_client without_encrytion.png)
+![ clemati ](images/Server_clientwithout_encrytion.png)
 - **With AES**: Messages appear encrypted (e.g., `\x96\x3d...`) and unreadable.
 ![ clematis ](images/server_client_withAES.png)
 📢 This confirms the importance of encrypting sensitive data even on local networks.
